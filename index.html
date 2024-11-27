@@ -10,7 +10,6 @@
     <nav id="nav_background">
         <div id="nav_inner">
             <div id="nav_left">XOP</div>
-       
             <div id="nav_right">
                 <ul>
                     <li>about</li>
@@ -20,9 +19,13 @@
                 </ul>
                 <div id="nav_right_right">
                     <div id="nav_icon">  <img src="/img/Icon.png"> </div>
-                    <span>download CV</span>
+                    <a href="https://youtube.com" style="text-decoration: none;color: #111827;"><span>download CV</span></a>
                 </div>
             </div>
+            <div id="menu_img">
+                <img src="/img/menu.png">
+            </div>
+           
         </div>
     </nav>
     <main id="header">
@@ -60,8 +63,8 @@
                 </div>
             </div>
             <div id="header_left">
-                <img src="/img/Background.png" width="280px" height="320px">
-                <img id="pic" src="/img/Pic.png" width="280px" height="320px">
+                <img src="/img/Background.png" id="background" >
+                <img src="/img/Pic.png" id="pic">
             </div>
         </div>
     </main>
@@ -70,8 +73,8 @@
             <div id="me_header"><span>About me</span></div>
             <div id="me_body">
                 <div id="me_left">
-                    <img src="/img/Background.png">
-                    <img src="img/pic1.png" style="position: absolute; top: 0; right: 15%;">
+                    <img src="/img/Background.png" id="background1">
+                    <img src="img/pic1.png" id="pic1">
                 
               
 
@@ -123,77 +126,79 @@
                 <span id="skills_text">The skills, tools and technologies I am really good at:</span>
 
             </div>
-            <div id="skills_body">
-                <div id="skills_body_container" >
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>JavaScript</span>
+            <ul id="skills_body">
+                <li class="icon_container">
+                    <div id="js">
+                        <span>
+                            JS
+                        </span>
                     </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>TypeScript</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>React</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Next.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Node.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Express.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Nest.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Socket.io</span>
-                    </div>
+                    <span>JavaScript</span>
+                </li>
+                <li class="icon_container">
+                    <div id="js" style="background-color: blue;">
+                        <span>TS</span>
 
-                </div>
-                <div id="skills_body_container">
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>JavaScript</span>
                     </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>TypeScript</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>React</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Next.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Node.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Express.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Nest.js</span>
-                    </div>
-                    <div class="icon_container">
-                        <img src="/img/js.png">
-                        <span>Socket.io</span>
-                    </div>
-                </div>
-            </div>
+                    <span>TypeScript</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/Group.png">
+                    <span>React</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-nextjs.svg">
+                    <span>Next.js</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-nodejs.svg">
+                    <span>Node.js</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-express.svg">
+                    <span>Express.js</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-nest.svg">
+                    <span>Nest.js</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-socket.svg">
+                    <span>Socket.io</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-postgresql.svg">
+                    <span>PostGreSQL</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-mongodb.svg">
+                    <span>MongoDB</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-sass.svg">
+                    <span>Sass</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-tailwindcss.svg">
+                    <span>Tailwind</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/figma.png">
+                    <span>Figma</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-cypress.svg">
+                    <span>Cypress</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/icon-storybook.svg">
+                    <span>Storybook</span>
+                </li>
+                <li class="icon_container">
+                    <img src="/img/Vector.png">
+                    <span>Git</span>
+                </li>   
+            </ul>
         </div>
     </main>
     <main id="xp">
@@ -202,16 +207,14 @@
                 <span id="xp_header_top">experience</span>
                 <span id="xp_header_bottom">Here is a quick summary of my most recent experiences:</span>
             </div>
-            <div id="xp_body" >
-
-            
-         
+           
+            <div class="xp_body">
                 <div id="xp_inner">
                     <img src="/img/upwork.png" >
                     <div id="xp_text">
                         <h1>Sr. Frontend Developer</h1>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
                             <li>Ut pretium arcu et massa semper, id fringilla leo semper.</li>
                             <li>Sed quis justo ac magna.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -219,11 +222,8 @@
                     </div>
                     <span>Nov 2021 - Present</span>
                 </div>
-
-                
-
             </div>
-            <div id="xp_body" style="height: 264px;">
+            <div class="xp_body">
                 <div id="xp_inner">
                     <img src="/img/upwork.png" >
                     <div id="xp_text">
@@ -236,25 +236,26 @@
                         </ul>
                     </div>
                     <span>Nov 2021 - Present</span>
-
                 </div>
-
             </div>
-            <div id="xp_body" style="height: 180px;">
+            <div class="xp_body">
                 <div id="xp_inner">
                     <img src="/img/upwork.png" >
                     <div id="xp_text">
                         <h1>Full Stack Developer</h1>
                         <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Lorem ipsum, dolor sit amet consectetur adipisicing..</li>
-                            <li>Sed quis justo ac magna.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Lorem ipsum dolor sit amet,
+                                 consectetur adipiscing elit.
+                                 Lorem ipsum dolor sit amet, 
+                                 consectetur adipiscing elit.
+                            </li>
+                            
                         </ul>
                     </div>
                     <span>Nov 2021 - Present</span>
                 </div>
             </div>
+           
         </div>
     </main>
     <main id="work">
@@ -287,17 +288,13 @@
                         <img src="/img/link_button.png">
                     </div>
                 </div>
-
-
-
-
-
-
-
             </div>
-            <div id="work_container">
+            <div id="work_container" style="display: flex; flex-direction: row-reverse;">
+                <div id="work_img">
+                    <img src="/img/cab.png">
+                </div>
                 <div id="work_mini" >
-                    <h1>UBcab</h1>
+                    <h1>MentorHub</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. 
                         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
                     <div id="skill_icons">
@@ -316,18 +313,13 @@
                         <img src="/img/link_button.png">
                     </div>
                 </div>
-                <div id="work_img">
-                    <img src="/img/cab.png">
-                </div>
-               
-
             </div>
             <div id="work_container">
                 <div id="work_img">
                     <img src="/img/cab.png">
                 </div>
                 <div id="work_mini">
-                    <h1>UBcab</h1>
+                    <h1>iToim</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. 
                         Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
                     <div id="skill_icons">
@@ -385,7 +377,6 @@
             <img src="/img/cc.png">
             2024 | Greetings with ❤️️ from Ulaanbaatar
         </span>
-
-
     </main>
+</body>
 </html>
